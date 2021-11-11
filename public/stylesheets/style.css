@@ -1,0 +1,157 @@
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Alfa Slab One', cursive;
+ */
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+/* Icono Instagram */
+.btn-ig{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-ig:hover{
+    text-decoration: none;
+    color: #bc318f;
+    background: white;
+
+}
+/* Inicio */
+h1,h2,h3 {
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 1px 1px 2px rgb(48, 197, 48);
+}
+p{
+    font-family:'Open Sans', sans-serif;
+    text-shadow: 1px 1px 2px rgb(48, 197, 48);
+    size: 24px;
+    stop-opacity: inherit;
+    
+}
+#texto {
+    background: rgba(255, 239, 215, 0.5); 
+    border-radius: 33px 33px 33px 33px;   
+}
+.text-alm{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.hero{
+    background: url(../images/fondo-mc.jpg) no-repeat;
+    background-size: cover;
+    height: 55vh;
+    min-height: 600px
+    color white;
+}
+/* Termina el inicio */
+
+/* Empieza novedades */
+.lista-novedades{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-novedades li{
+    margin: 4 px 0;
+}
+
+.lista-novedades li a {
+    background-color: rgb(204, 255, 145);
+    border-radius: 33px 33px 33px 33px;
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a0a0aa;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.lista-novedades li a:hover {
+    color: #212529;
+    background-color:rgb(123, 255, 82);
+}
+
+.lista-novedades li a img{
+    width: 120px;
+    height: 120px;
+    filter:grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+/* Fin de novedades */
+
+/* Comienza el modal */
+.modal-body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgba(248, 179, 31, 0.2);
+    text-align: center;
+}
+
+.img{
+    width: 300px;
+}
+h5{
+    text-shadow: 1px 1px 2px rgba(248, 179, 31, 0.5);
+}
+
+/* Comienza Nuestros Clientes */
+.clientes{
+    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);;
+    padding-bottom: 4rem !important;
+    height: 300px;
+}
+
+.cliente {
+    text-align: center;
+    padding: 50px 20px;
+}
+/* Termina el modal */
+
+/* Comienza productos */
+.producto{
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+
+}
+/* Termina productos */
+/* Mensaje */
+.message{
+    margin-left: 20px;
+    display: flex;
+    background-color: #56ff6d;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+
+
+}
+/* Pie de pagina */
+footer {
+    background-color: rgb(48, 197, 48);
+    color: rgba(255, 255, 255, 0.966);
+}
+/* Termina pie de página */
